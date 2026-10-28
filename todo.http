@@ -1,0 +1,20 @@
+### Hämta alla uppgifter
+GET http://localhost:3000/api/tasks
+Accept: application/json
+
+### Hämta uppgift baserat på ID
+GET http://localhost:3000/api/tasks/1
+Accept: application/json
+
+### Skapa uppgift
+POST http://localhost:3000/api/tasks
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Städa"
+}
+
+### Radera uppgift baserat på ID
+DELETE http://localhost:3000/api/tasks/3
+Accept: application/json
